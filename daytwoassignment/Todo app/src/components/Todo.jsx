@@ -14,6 +14,9 @@ function Todo() {
     
     setTodoList([...todolist.slice(0, index), ...todolist.slice(index + 1)]);
   };
+  // const newList =[...todoList]
+  // newList.slice(index,1)
+  // settodo(newList)
 
   return (
     <Container >
